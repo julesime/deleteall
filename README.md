@@ -6,6 +6,10 @@ NUKEITALL is a Slack app designed to delete all messages from a Slack channel wh
 ## Prerequisites
 To use NUKEITALL, a Slack app with the appropriate permissions is required. Specifically, the app needs permissions to read and delete messages in the channels where it will be used.
 
+Both Slack Web API and Socket Mode are used for this project
+const { WebClient } = require('@slack/web-api');
+const { SocketModeClient } = require('@slack/socket-mode');
+
 ## Installation and Setup
 
 ### Set up a Slack App:
